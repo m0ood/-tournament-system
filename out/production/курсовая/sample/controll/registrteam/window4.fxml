@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="720.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controll.registrteam.window4">
+    <children>
+      <TextField fx:id="name" layoutX="290.0" layoutY="129.0" promptText="Название" />
+      <Text layoutX="110.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите название команды:" />
+      <TextField fx:id="name1" layoutX="290.0" layoutY="155.0" promptText="Название" />
+      <Text layoutX="109.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите ник первого игрока:" />
+      <Text layoutX="165.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добавление команды">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <TextField fx:id="name2" layoutX="290.0" layoutY="181.0" promptText="Название" />
+      <Text layoutX="110.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите ник второго игрока:" />
+      <TextField fx:id="name3" layoutX="291.0" layoutY="207.0" prefHeight="27.0" prefWidth="151.0" promptText="Название" />
+      <Text layoutX="111.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите ник третего игрока:" />
+      <TextField fx:id="name4" layoutX="293.0" layoutY="236.0" prefHeight="27.0" prefWidth="151.0" promptText="Название" />
+      <Text layoutX="110.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите ник четвертого игрока:" />
+      <TextField fx:id="name5" layoutX="293.0" layoutY="265.0" prefHeight="16.0" prefWidth="152.0" promptText="Название" />
+        <Button fx:id="select" layoutX="232.0" layoutY="358.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="218.0" text="Подтвердить" textAlignment="CENTER" />
+      <Text layoutX="110.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите ник пятого игрока:" />
+    </children>
+</AnchorPane>

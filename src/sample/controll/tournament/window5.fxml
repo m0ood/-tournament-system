@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="720.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controll.tournament.window5">
+   <children>
+      <Text layoutX="231.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите команды" wrappingWidth="220.2581787109375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="team1" layoutX="117.0" layoutY="207.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="team2" layoutX="394.0" layoutY="207.0" prefWidth="150.0" />
+      <Label layoutX="163.0" layoutY="189.0" text="Команда 1" />
+      <Label layoutX="440.0" layoutY="189.0" text="Команда 2" />
+      <Button fx:id="apply" layoutX="285.0" layoutY="331.0" mnemonicParsing="false" text="Подтвердить" />
+      <Label layoutX="192.0" layoutY="275.0" text="Введите карту:" />
+      <TextField fx:id="map" layoutX="278.0" layoutY="271.0" promptText="map" />
+      <Button fx:id="back" layoutX="42.0" layoutY="39.0" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

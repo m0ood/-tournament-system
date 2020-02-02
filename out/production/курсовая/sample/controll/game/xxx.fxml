@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="720.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controll.game.game">
+    <children>
+        <TableView fx:id="tableUsers" layoutX="12.0" layoutY="62.0" prefHeight="161.0" prefWidth="211.0" style="-fx-background-colo: #2d38;">
+            <columns>
+                <!-- Колонки таблицы -->
+                <TableColumn fx:id="loginColumn" prefWidth="214.4000244140625" text="Команда 1" />
+            </columns>
+        </TableView>
+        <Label layoutX="254.0" layoutY="21.0" text="Результаты игры" textFill="#929a9e">
+            <font>
+                <Font name="Verdana" size="24.0" />
+            </font>
+        </Label>
+      <Button fx:id="apply" layoutX="272.0" layoutY="438.0" mnemonicParsing="false" text="Подтвердить" />
+      <TableView fx:id="tableUsers1" layoutX="12.0" layoutY="260.0" prefHeight="162.0" prefWidth="211.0">
+         <columns>
+            <TableColumn fx:id="loginColumn1" prefWidth="214.4000244140625" text="Команда 2" />
+         </columns>
+      </TableView>
+      <TextField fx:id="kill1" layoutX="244.0" layoutY="80.0" promptText="kill" />
+      <TextField fx:id="death1" layoutX="441.0" layoutY="80.0" promptText="death" />
+      <Text fill="#929a9e" layoutX="310.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kill" />
+      <Text fill="#929a9e" layoutX="502.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Death" />
+      <TextField fx:id="kill2" layoutX="244.0" layoutY="106.0" promptText="kill" />
+      <TextField fx:id="death2" layoutX="441.0" layoutY="106.0" promptText="death" />
+      <TextField fx:id="kill3" layoutX="244.0" layoutY="132.0" promptText="kill" />
+      <TextField fx:id="death3" layoutX="441.0" layoutY="132.0" promptText="death" />
+      <TextField fx:id="kill4" layoutX="244.0" layoutY="158.0" promptText="kill" />
+      <TextField fx:id="death4" layoutX="441.0" layoutY="158.0" promptText="death" />
+      <TextField fx:id="kill5" layoutX="244.0" layoutY="184.0" promptText="kill" />
+      <TextField fx:id="death5" layoutX="441.0" layoutY="184.0" promptText="death" />
+      <TextField fx:id="kill6" layoutX="244.0" layoutY="287.0" promptText="kill" />
+      <TextField fx:id="death6" layoutX="441.0" layoutY="287.0" promptText="death" />
+      <Text fill="#929a9e" layoutX="310.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kill" />
+      <Text fill="#929a9e" layoutX="502.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Death" />
+      <TextField fx:id="kill7" layoutX="244.0" layoutY="313.0" promptText="kill" />
+      <TextField fx:id="death7" layoutX="441.0" layoutY="313.0" promptText="death" />
+      <TextField fx:id="kill8" layoutX="244.0" layoutY="339.0" promptText="kill" />
+      <TextField fx:id="death8" layoutX="441.0" layoutY="339.0" promptText="death" style="-fx-background-colo: white;" />
+      <TextField fx:id="kill9" layoutX="244.0" layoutY="365.0" promptText="kill" />
+      <TextField fx:id="death9" layoutX="441.0" layoutY="365.0" promptText="death" />
+      <TextField fx:id="kill10" layoutX="244.0" layoutY="391.0" promptText="kill" />
+      <TextField fx:id="death10" layoutX="441.0" layoutY="391.0" promptText="death" />
+      <Text fill="#929a9e" layoutX="215.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Счёт:" />
+      <TextField fx:id="score" layoutX="252.0" layoutY="229.0" promptText="score" />
+    </children>
+</AnchorPane>

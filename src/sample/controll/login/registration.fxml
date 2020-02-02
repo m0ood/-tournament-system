@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="720.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controll.login.REGISTRATION">
+    <children>
+        <AnchorPane layoutX="-1.0" layoutY="96.0" prefHeight="407.0" prefWidth="722.0" style="-fx-background-color: white;">
+            <children>
+                <TextField fx:id="login" layoutX="226.0" layoutY="106.0" prefHeight="31.0" prefWidth="180.0" promptText="Логин">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="password" layoutX="226.0" layoutY="177.0" prefHeight="38.0" prefWidth="180.0" promptText="Пароль">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </PasswordField>
+                <Button fx:id="SingIn" layoutX="276.0" layoutY="227.0" mnemonicParsing="false" text="Войти" textAlignment="CENTER">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Text layoutX="226.0" layoutY="70.0" strokeWidth="0.0" text="Авторизация">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Text>
+        <Button fx:id="SingUp" layoutX="45.0" layoutY="37.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="134.0" text="Регистрация" textFill="#060000">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

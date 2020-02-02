@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="720.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controll.overview.games">
+    <children>
+          <Label layoutX="14.0" layoutY="64.0" prefHeight="22.0" prefWidth="73.0" text="Навигация" textAlignment="CENTER">
+              <font>
+                  <Font size="14.0" />
+              </font>
+          </Label>
+        <Button fx:id="key2" layoutX="2.0" layoutY="117.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="98.0" text="Команды" textAlignment="CENTER" />
+        <Button fx:id="key1" layoutX="2.0" layoutY="91.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="98.0" text="Игроки" textAlignment="CENTER" />
+        <Button layoutX="2.0" layoutY="139.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="98.0" text="Матчи" textAlignment="CENTER" textFill="#369a20" />
+        <TableView fx:id="personTable" layoutX="107.0" layoutY="64.0" prefHeight="413.0" prefWidth="592.0">
+            <columns>
+                <TableColumn fx:id="team1" prefWidth="134.4000244140625" text="Команда 1" />
+                <TableColumn fx:id="team2" prefWidth="72.00006103515625" text="Команда 2" />
+                <TableColumn fx:id="map" prefWidth="186.39996337890625" text="Карта" />
+            <TableColumn fx:id="score" prefWidth="75.0" text="Счет" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+      <Button fx:id="back" layoutX="27.0" layoutY="29.0" mnemonicParsing="false" text="Назад" />
+    </children>
+</AnchorPane>
